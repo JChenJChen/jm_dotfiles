@@ -1,0 +1,12 @@
+.hyperfine.js
+docker-compose.yaml
+Dockerfile
+docs
+install.sh
+README.md
+
+# Ignore MacOS files
+.CFUserTextEncoding
+.DS_Store
+.Trash
+

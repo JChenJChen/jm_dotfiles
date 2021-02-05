@@ -1,0 +1,9 @@
+Host *
+    IgnoreUnknown UseKeychain,AddKeysToAgent
+    UseKeychain yes
+    AddKeysToAgent yes
+
+Host sftp.courts.state.ny.us
+  HostkeyAlgorithms           ssh-dss
+  Ciphers                     aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc
+
